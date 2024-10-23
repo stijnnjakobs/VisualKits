@@ -1,0 +1,33 @@
+menu:
+  title: "&aSelect a category"
+messages:
+  no_permission: "&cJe hebt geen toestemming om deze kit te gebruiken."
+  kit_not_found: "&cKit niet gevonden."
+  category_not_found: "&cCategorie voor deze kit niet gevonden."
+  kit_applied: "&aKit &b{kit} &ais toegepast."
+  kit_claimed: "&aJe hebt de kit &b{kit} &ageclaimd uit de categorie &b{category} &a."
+  category_on_cooldown: "&cJe moet nog &b{time} &cwachten voordat je een kit uit deze categorie opnieuw kunt gebruiken."
+categories:
+  example_category:
+    name: "Voorbeeld Categorie"
+    slot: 10
+    item: "DIAMOND"
+    description: "Voorbeeld beschrijving"
+    settings:
+      glow: true
+      cooldown: "1d"  # Categorie cooldown
+    kits:
+      example_kit:
+        name: "te Kit"
+        slot: 10
+        item: "DIAMOND"
+        description: "Voorbeeld beschrijving"
+        settings:
+          glow: true
+        permission:
+          - "luckperms.permission"
+          - "luckperms.rank"
+        items:
+          - item: "DIAMOND_SWORD:DAMAGE_ALL:1,DURABILITY:2"
+            name: "&bExcalibur"
+            lore: []

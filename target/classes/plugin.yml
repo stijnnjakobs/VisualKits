@@ -1,0 +1,10 @@
+name: VisualKits
+version: '1.0-SNAPSHOT'
+main: nl.de3d.visualpvp.visualkits.KitPlugin
+commands:
+  kit:
+    description: Open the kit GUI.
+    usage: /<command>
+  kits:
+    description: Open the kit GUI.
+    usage: /<command>
